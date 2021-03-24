@@ -56,16 +56,52 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\SwipeDrawer.cs" />
     <Compile Include="Assets\ScriptableObjectsScript\MoveHandlerScriptableObject.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\SwipeDetector.cs" />
     <Compile Include="Assets\Scripts\SwipeLogger.cs" />
-    <Compile Include="Assets\Scripts\SwipeDrawer.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Framework\LeanAudio.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Framework\LeanTween.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\PathSplines.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralBasic.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\PathBezier2d.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\Following.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Framework\LeanSmooth.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Archived\TestingPunch.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\PathBezier.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Framework\LTDescr.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\AssetStore\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\AssetStore\LeanTween\ReadMe.txt" />
      <None Include="Assets\AssetStore\Fantasy Skybox FREE\Readme.txt" />
+     <None Include="Assets\AssetStore\LeanTween\License.txt" />
+     <None Include="Assets\AssetStore\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

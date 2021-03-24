@@ -668,13 +668,13 @@
       <Project>{604EB07B-32CA-3745-9E0B-1A1C75911085}</Project>
       <Name>Unity.Notifications.Android</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{B2C0066F-EA32-B1E8-3585-F8E39BBAFAB3}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{2D1640EF-C4AD-E4E9-C14B-E802D97536F7}</Project>
       <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{B2C0066F-EA32-B1E8-3585-F8E39BBAFAB3}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{38AE925B-8E42-9847-3FFD-90CA693FBD8B}</Project>
